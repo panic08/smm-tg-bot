@@ -4,5 +4,7 @@ CREATE TABLE IF NOT EXISTS users_table(
     balance DOUBLE PRECISION NOT NULL,
     role VARCHAR(255) NOT NULL,
     privilege VARCHAR(255) NOT NULL,
+    account_non_locked BOOL NOT NULL,
     registered_at BIGINT NOT NULL
 );
+
